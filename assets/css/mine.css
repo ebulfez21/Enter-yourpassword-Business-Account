@@ -1,0 +1,196 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 918px;
+  height: 1200px;
+  flex-shrink: 0;
+  background: #939aa3;
+}
+
+.login-card {
+  display: inline-flex;
+  padding: 85px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 44px 104px 0px rgba(19, 43, 80, 0.1);
+}
+.input-label p {
+  margin-bottom: 8px;
+  color: #132b50;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.user-info p {
+  color: #132b50;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.user-info span {
+  color: #132b50;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.input-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  width: 414px;
+  height: 348px;
+}
+
+.input-card h2{
+  color: #132B50;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.user-avatar {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-avatar h2 {
+  color: #132b50;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: row;
+  width: 414px;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.password-input {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  border-radius: 8px;
+  border: 1px solid  #132b50;
+}
+.password-input input {
+  width: 371px;
+  height: 59px;
+  color: #132b50;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 25px;
+  border: none;
+}
+.password-input input:focus {
+  outline: none;
+}
+.password-input input::placeholder {
+  font-size: 22px;
+  border: none;
+}
+
+.checkbox-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.stay-signed-in{
+  width: 70px;
+  height: 36px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 2px solid #132b50;
+}
+.checkbox-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  border: 2px solid #132b50;
+  margin-left: 5px;
+  background-color: #132b50;
+  transform: translateX(0);
+  transition: transform 0.5s ease;
+}
+.checkbox-icon:checked {
+  margin-left: 30px;
+  border-radius: 20px;
+  outline: none;
+  transform: translateX(10px);
+}
+.stay-signed-in input {
+  border-radius: 15px;
+  appearance: none;
+}
+.continue-button {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background:#132b50;
+}
+.continue-button a {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.stay-signed-in-label{
+  width: 252px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.stay-signed-in-label p {
+  color: #132b50;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.reset-password-link {
+  width: 124px;
+  height: 19px;
+  margin-top: 40px;
+}
+.reset-password-link a {
+  color: #132b50;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration: none;
+}
