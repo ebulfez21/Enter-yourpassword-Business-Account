@@ -1,40 +1,41 @@
-<h1 align="left">Login Form HTML and CSS</h1>
+# Enter Your Password - Business Account
 
-###
+This project is a card design for users to enter their passwords. It was created using HTML and CSS.
 
-<p align="left">This is a simple login form designed using HTML and CSS. The form includes input fields for username (Business Account) and password, a checkbox for "Stay signed in," and a "Continue" button. Additionally, there's a "Reset password" link at the bottom of the form.</p>
+![Enter Your Password - Business Account](https://github.com/ebulfez21/Enter-yourpassword-Business-Account-/blob/main/assets/img/README.png?raw=true)
 
-###
+## Features
+
+- Username and image are displayed in a clean interface.
+- There is a special area for user password entry.
+- With the "Stay signed in" option, the user is kept logged in.
+- "Reset password" link provides password reset option.
+
+## Beginning
+
+1. Clone the repository or download the code.
+
+2. Open the `index.html` file in your web browser.
+
+3. Review the card design and enter your password.
+
+## Use
+
+- It has a special area for user password entry.
+- You can keep the session open with the "Stay signed in" option.
+- If you forgot your password, you can reset your password with the "Reset password" link.
+
+## Customize
+
+You can customize the design in `index.html` and `style.css` files as you wish.
+
+## Compatibility
+
+The design is adapted to work in modern web browsers.
 
 
-<h3 align="left"></h3>
+## Writer
 
-###
+[Ebulfez-GitHub](https://github.com/ebulfez21/Enter-yourpassword-Business-Account-/tree/main)
+[Ebulfez-Netlify](https://ebulfez-enter-yourpassword-business.netlify.app)
 
-<p align="left"></p>
-
-###
-
-
-###
-
-<h3 align="left">image of the project</h3>
-
-###
-
-<p align="left"></p>
-
-###
-
-<div align="center">
-  <img height="300" src="https://github.com/ebulfez21/Enter-yourpassword-Business-Account-/blob/main/assets/img/README.png?raw=true"  />
-</div>
-
-###
-
-
-###
-
-<p align="left">https://ebulfez-enter-yourpassword-business.netlify.app/</p>
-
-###
