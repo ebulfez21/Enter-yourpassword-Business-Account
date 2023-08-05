@@ -3,7 +3,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .main-container {
   display: flex;
   justify-content: center;
@@ -13,7 +12,6 @@ body {
   flex-shrink: 0;
   background: #939aa3;
 }
-
 .login-card {
   display: inline-flex;
   padding: 85px;
@@ -54,14 +52,13 @@ body {
   width: 414px;
   height: 348px;
 }
-
-.input-card h2{
-  color: #132B50;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.input-card h2 {
+  color: #132b50;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 .user-avatar {
   display: flex;
@@ -70,7 +67,6 @@ line-height: normal;
   align-items: center;
   justify-content: center;
 }
-
 .user-avatar h2 {
   color: #132b50;
   font-size: 32px;
@@ -78,16 +74,13 @@ line-height: normal;
   font-weight: 700;
   line-height: normal;
 }
-
-.input-container{
+.input-container {
   display: flex;
   flex-direction: row;
   width: 414px;
   align-items: center;
   gap: 8px;
 }
-
-
 .password-input {
   display: flex;
   padding: 16px;
@@ -95,7 +88,7 @@ line-height: normal;
   gap: 10px;
   flex: 1 0 0;
   border-radius: 8px;
-  border: 1px solid  #132b50;
+  border: 1px solid #132b50;
 }
 .password-input input {
   width: 371px;
@@ -115,14 +108,13 @@ line-height: normal;
   font-size: 22px;
   border: none;
 }
-
 .checkbox-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 8px;
 }
-.stay-signed-in{
+.stay-signed-in {
   width: 70px;
   height: 36px;
   border-radius: 20px;
@@ -157,7 +149,7 @@ line-height: normal;
   align-items: flex-start;
   gap: 10px;
   border-radius: 8px;
-  background:#132b50;
+  background: #132b50;
 }
 .continue-button a {
   color: #fff;
@@ -166,7 +158,7 @@ line-height: normal;
   font-weight: 600;
   line-height: normal;
 }
-.stay-signed-in-label{
+.stay-signed-in-label {
   width: 252px;
   height: 36px;
   display: flex;
